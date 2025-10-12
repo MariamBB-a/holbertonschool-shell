@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name '*.gif' -printf "%f\n" | cut -c-$(($(head -n1 <<< .gif | wc -c)+-5)) | sort -f
