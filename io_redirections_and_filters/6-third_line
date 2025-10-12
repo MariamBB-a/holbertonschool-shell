@@ -1,0 +1,2 @@
+#!/bin/bash
+{ read; read; read line; echo "$line"; } < iacta
